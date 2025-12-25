@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Games Studio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background-image: url("Top Games Studio.png");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #0f172a; /* dark text for white overlay */
+        }
+
+        /* Light white transparent overlay */
+        .overlay {
+            background-color: rgba(255, 255, 255, 0.75);
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            align-items: center;
+            padding: 20px 40px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 60px;
+            height: auto;
+            margin-right: 15px;
+        }
+
+        .logo h1 {
+            font-size: 1.8rem;
+            color: #1e3a8a;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+            color: #0f172a;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #1e40af;
+        }
+
+        /* Services */
+        .services-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-card {
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #0f172a;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-card h4 {
+            color: #92400e;
+            margin-bottom: 10px;
+        }
+
+        /* Contact */
+        .contact p {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            font-size: 0.9rem;
+            color: #0f172a;
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay">
+
+    <!-- Header with Logo -->
+    <header>
+        <div class="logo">
+            <img src="Logo.png" alt="Top Games Studio Logo">
+            <h1>Top Games Studio</h1>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h2>Creating Games, Music & Digital Books</h2>
+        <p>Mobile Games • Entertainment Apps • E-Books</p>
+    </div>
+
+    <!-- About -->
+    <section>
+        <h3>About Us</h3>
+        <p>
+            Top Games Studio is a creative technology company dedicated to building
+            engaging mobile games, music and entertainment applications, and
+            high-quality e-books. Our goal is to deliver fun, creativity, and
+            inspiration through digital experiences.
+        </p>
+    </section>
+
+    <!-- Services -->
+    <section>
+        <h3>What We Do</h3>
+        <div class="services-list">
+            <div class="service-card">
+                <h4>🎮 Mobile Games</h4>
+                <p>Fun and addictive mobile games designed for entertainment.</p>
+            </div>
+
+            <div class="service-card">
+                <h4>🎵 Music & Entertainment Apps</h4>
+                <p>Apps that bring music, joy, and relaxation to users.</p>
+            </div>
+
+            <div class="service-card">
+                <h4>📘 E-Books</h4>
+                <p>Digital books that educate, entertain, and inspire readers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+        <h3>Contact Us</h3>
+        <p><strong>Email:</strong>
+            <a href="mailto:timboabdulai090@gmail.com">timboabdulai090@gmail.com</a>
+        </p>
+        <p><strong>Phone:</strong>
+            <a href="tel:+23277546192">+232 77 546192</a>
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 Top Games Studio. All rights reserved.
+    </footer>
+
+</div>
+
+</body>
+</html>
